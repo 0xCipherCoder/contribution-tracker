@@ -35,28 +35,28 @@ The system tracks the following contribution types with associated point ranges:
 
 1. Install dependencies:
 
-```bash
-yarn install
-```
+    ```bash
+    yarn install
+    ```
 
 2. Build the program:
 
-```bash
-anchor build
-```
+    ```bash
+    anchor build
+    ```
 
 3. Deploy locally:
 
-```bash
-solana-test-validator
-anchor deploy
-```
+    ```bash
+    solana-test-validator
+    anchor deploy
+    ```
 
 4. Run tests:
 
-```bash
-anchor test
-```
+    ```bash
+    anchor test
+    ```
 
 ## Program Structure
 
@@ -104,10 +104,10 @@ contribution-tracker/
 
 ### State Accounts
 
-**ContributionTracker:** Global state tracking total points and thresholds
-**Contributor:** Individual contributor accounts with points and claims
-**Contribution:** Individual contribution records
-**DistributionPeriod:** Period-specific tracking and distribution data
+- **ContributionTracker:** Global state tracking total points and thresholds
+- **Contributor:** Individual contributor accounts with points and claims
+- **Contribution:** Individual contribution records
+- **DistributionPeriod:** Period-specific tracking and distribution data
 
 ### Instructions
 
@@ -154,7 +154,7 @@ Currently implemented:
 
 ## TODO
 
- - Additional validation
- - More comprehensive tests
- - UI Integration
- - Documentation improvements
+- Additional validation
+- More comprehensive tests
+- UI Integration
+- Documentation improvements
