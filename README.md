@@ -113,23 +113,22 @@ contribution-tracker/
 
 1. Admin Instructions:
 
-- Initialize tracker
-- Start new period
-- Review contributions
-- Process period distribution
-
+   - Initialize tracker
+   - Start new period
+   - Review contributions
+   - Process period distribution
 
 2. User Instructions:
 
-- Record contribution
-- Claim rewards
+   - Record contribution
+   - Claim rewards
 
 3. Distribution Logic:
 
-- Monthly token pool unlocking
-- Proportional distribution based on points
-- Reserve pool management
-- Threshold-based distribution
+   - Monthly token pool unlocking
+   - Proportional distribution based on points
+   - Reserve pool management
+   - Threshold-based distribution
 
 ### Testing
 
