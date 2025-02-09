@@ -60,6 +60,8 @@ anchor test
 
 ## Program Structure
 
+```bash
+
 contribution-tracker/
 ├── programs/
 │   └── contribution-tracker
@@ -95,6 +97,8 @@ contribution-tracker/
 │   └── contribution-tracker.ts
 ├── Anchor.toml
 └── package.json
+
+```
 
 ## Key Components
 
